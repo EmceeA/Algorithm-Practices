@@ -23,8 +23,8 @@ class Result
 
     public static void miniMaxSum(List<int> arr)
     {
-        int maxValue = 0;
-        int minValue = 0;
+        long maxValue = 0;
+        long minValue = 0;
         int n = arr.Count;
         int j = n - 1;
         arr.Sort();
