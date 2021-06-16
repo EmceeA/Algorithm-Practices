@@ -23,9 +23,9 @@ class Result
 
     public static void miniMaxSum(List<int> arr)
     {
-        int maxValue = 0;
-        int minValue = 0;
-        int sum = 0;
+        long maxValue = 0;
+        long minValue = 0;
+        long sum = 0;
         minValue = arr[0];
         maxValue = minValue;
         sum = minValue;
