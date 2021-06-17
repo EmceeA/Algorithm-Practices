@@ -37,7 +37,7 @@ class Result
          {
              minValue = arr[i];
          }
-         else if(arr[i] > maxValue)
+         if(arr[i] > maxValue)
          {
              maxValue = arr[i];
          }
