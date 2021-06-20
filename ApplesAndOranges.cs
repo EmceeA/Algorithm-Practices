@@ -31,27 +31,28 @@ class Result
     {
         int apple = 0;
         int orange = 0;
-        int applesPlus;
-        int orangesPlus;
         for(int i = 0; i < apples.Count; i++)
         {
-            applesPlus = apples[i] + a;
-            if(applesPlus >= s && applesPlus <= t)
+            int applePlus = apples[i] + a;
+            if(applePlus >= s && applePlus <= t)
             {
                 apple++;
             }
+            
         }
-        Console.WriteLine(apple);
         
-           for(int i = 0; i < oranges.Count; i++)
+        for(int j = 0; j < oranges.Count; j++)
         {
-            orangesPlus = oranges[i] + a;
-            if(orangesPlus >= s && orangesPlus <= t)
+             int orangePlus = oranges[j] + b;
+            if(orangePlus >= s && orangePlus <= t)
             {
                 orange++;
             }
         }
+        Console.WriteLine(apple);
         Console.WriteLine(orange);
+        
+    
     }
 
 }
